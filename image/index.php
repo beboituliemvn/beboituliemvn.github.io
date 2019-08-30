@@ -1,4 +1,1 @@
-<?php
-$URL="https://trantuanminh.com/";
-header ("Location: $URL");
-?>
+<meta http-equiv="refresh" content="0;https://trantuanminh.com>
