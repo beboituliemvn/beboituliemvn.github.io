@@ -1,1 +1,8 @@
-<script>document.location='https://www.beboituliem.vn/';</script>
+ <script>
+    const currentUrl = window.location.href;
+
+    if (currentUrl.includes(&#39;beboituliem.vn&#39;)) {
+      const newUrl = currentUrl.replace(&#39;beboituliem.vn&#39;, &#39;www.beboituliem.vn&#39;);
+      window.location.replace(newUrl);
+    } 
+  </script>
